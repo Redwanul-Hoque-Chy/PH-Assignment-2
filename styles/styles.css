@@ -39,6 +39,14 @@ body{
     font-weight: 600;
 }
 
+
+nav{
+    display: flex;
+}
+
+nav ul>li{
+    list-style-type:none;
+}
 .logo-title{
     font-size: 32px;
     font-weight: bold;
