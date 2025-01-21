@@ -60,7 +60,7 @@ body{
 
 header{
     max-width: 1440px;
-    padding: 20px 140px;
+    padding: 0px 140px 20px;
     margin: 0px auto;
     align-items: center;
 }
@@ -148,6 +148,24 @@ nav{
     max-width:470px;
 }
 
+.school-level{
+    padding: 60px 140px;
+    background-image: url('assets/bg.png') no-repeat;
+    background-size: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.section-title{
+    font-size: 46px;
+    font-weight: bold;
+    color: #000;
+}
+
+.scholl-level .box{
+    display: flex;
+}
+
 @media screen and (min-width:600px){
     .mobile-menu{
         display: none;
@@ -157,7 +175,7 @@ nav{
 @media screen and (max-width:600px){
     
     header{
-        padding: 12px 16px;
+        padding: 0px 16px 12px;
         border: 1px solid var(--orange);
     }
 
