@@ -56,6 +56,10 @@ header{
     align-items: center;
 }
 
+marquee{
+    margin-bottom: 5px;
+}
+
 nav{
     display: flex;
     gap: 186px;
