@@ -8,12 +8,39 @@ body{
 }
 
 :root{
-    --blue-color:#64C8FF;
-    --orange-color:#F0AA00;
-    --violet-color:#8700FF;
+    --orange:orange;
+    --aquablue:#05D4DF;
+    --skyblue:skyblue;
+    --lotus:#5D58EF;
+}
+
+.orange{
+    color: var(--orangle);
+}
+
+.skyblue{
+    color: var(--skyblue);
+}
+
+.aquablue{
+    color: var(--aquablue);
+}
+
+.lotus{
+    color: var(--lotus);
+}
+
+
+.btn-primary{
+    background-color: var(--orange);
+    padding: 10px 60px;
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .logo-title{
     font-size: 32px;
     font-weight: bold;
+    color: black;
 }
