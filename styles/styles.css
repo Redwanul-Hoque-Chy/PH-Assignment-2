@@ -15,7 +15,7 @@ body{
 }
 
 .orange{
-    color: var(--orangle);
+    color: var(--orange);
 }
 
 .skyblue{
@@ -30,7 +30,6 @@ body{
     color: var(--lotus);
 }
 
-
 .btn-primary{
     background-color: var(--orange);
     padding: 10px 60px;
@@ -39,11 +38,21 @@ body{
     font-weight: 600;
 }
 
+header{
+    max-width: 1440px;
+    padding: 20px 140px;
+}
+
 nav{
     display: flex;
+    justify-content: space-between;
 }
 
 .logo{
+    display: flex;
+}
+
+.menu{
     display: flex;
 }
 
