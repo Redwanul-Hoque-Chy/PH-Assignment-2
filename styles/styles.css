@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+}
+
+:root{
+    --blue-color:#64C8FF;
+    --orange-color:#F0AA00;
+    --violet-color:#8700FF;
+}
+
+.logo-title{
+    font-size: 32px;
+    font-weight: bold;
+}
