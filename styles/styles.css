@@ -605,6 +605,7 @@ footer{
     .footer{
         flex-direction: column;
         padding: 40px 10px;
+        width:calc(100% - 20px);
     }
 
     .footer-box-1, .footer-box-2, .footer-box-3{
