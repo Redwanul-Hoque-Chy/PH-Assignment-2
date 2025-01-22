@@ -342,8 +342,19 @@ nav{
     border-radius: 16px 16px 0px 0px;
 }
 
-.btn-store1{
-    
+.stories-box1 .btn-store1{
+    position: relative;
+    top: -25px;
+}
+
+.stories-box2 .btn-store2{
+    position: relative;
+    top: -25px;
+}
+
+.stories-box2 .btn-store3{
+    position: relative;
+    top: -25px;
 }
 
 .stories-box1 h6{
@@ -569,6 +580,12 @@ footer{
 
     .stories-box-grid img{
         width:100%;
+    }
+
+    .btn-store2, .btn-store3{
+        font-size: 9px;
+        padding: 5px 10px;
+        margin-top: 10px;
     }
 
     .footer{
