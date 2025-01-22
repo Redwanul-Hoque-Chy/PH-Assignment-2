@@ -321,6 +321,10 @@ nav{
     text-align: center;
 }
 
+.box-card-1 img, .box-card-2 img,.box-card-3 img{
+    width: 85px;
+}
+
 .stories-box{
     display: flex;
     justify-content: space-between;
